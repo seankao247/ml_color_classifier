@@ -1,12 +1,12 @@
 # ml_color_classifier
 ```
+/*
 samplecode_train.c
 =>
-/*
 研究參考網站code的訓練程式
 https://www.the-diy-life.com/running-an-artificial-neural-network-on-an-arduino-uno/
 這個程式共只能三層　hidden 只有一層 加上 input output 共三層
-*/
+
 
 徐_main.c
 =>
@@ -35,4 +35,5 @@ int train_data_output[train_data_num][target_num] = {
     {0, 0, 0, 1},
     {0, 0, 0, 1},
     {0, 0, 0, 1}}
+*/
 ```
