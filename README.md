@@ -30,7 +30,7 @@ float train_data_input[train_data_num][InputNodes_num] = {
     {482, 472, 264}}
 
 int train_data_output[train_data_num][target_num] = {
-    {0, 0, 0, 1},  (紅色,綠色,藍色,環境光)
+    {0, 0, 0, 1},  //(紅色,綠色,藍色,環境光)
     {0, 0, 0, 1},
     {0, 0, 0, 1},
     {0, 0, 0, 1},
