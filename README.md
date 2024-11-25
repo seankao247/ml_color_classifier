@@ -22,7 +22,7 @@ https://www.the-diy-life.com/running-an-artificial-neural-network-on-an-arduino-
 
 資料格式:
 float train_data_input[train_data_num][InputNodes_num] = {
-    {479, 468, 261},  //(R,G,B) of pattern 1
+    {479, 468, 261},  //(R,G,B) of pattern 1  RGB分別為包著對應顏色紙的光敏電阻
     {486, 482, 266},  //(R,G,B) of pattern 2
     {488, 479, 265},
     {490, 477, 267},
@@ -30,7 +30,7 @@ float train_data_input[train_data_num][InputNodes_num] = {
     {482, 472, 264}}
 
 int train_data_output[train_data_num][target_num] = {
-    {0, 0, 0, 1},  
+    {0, 0, 0, 1},  (紅色,綠色,藍色,環境光)
     {0, 0, 0, 1},
     {0, 0, 0, 1},
     {0, 0, 0, 1},
