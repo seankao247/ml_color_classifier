@@ -1,7 +1,7 @@
 # ml_color_classifier
 
 samplecode_train.c
-=> 
+
 /*
 研究參考網站code的訓練程式
 https://www.the-diy-life.com/running-an-artificial-neural-network-on-an-arduino-uno/
@@ -9,13 +9,13 @@ https://www.the-diy-life.com/running-an-artificial-neural-network-on-an-arduino-
 */
 
 徐_main.c
-=>
+
 徐睿桐之前做 加速度ML的training code
 加入我註解的原始版本
 相當於在改之前做個備份
 
 徐_main_v2.c
-=>
+
 徐_main.c的修改版本，加入我的修改，把它變得可以跑我們的資料
 成功可跑
 
