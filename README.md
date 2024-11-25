@@ -1,5 +1,5 @@
 # ml_color_classifier
-'''
+```
 samplecode_train.c
 =>
 /*
@@ -35,4 +35,4 @@ int train_data_output[train_data_num][target_num] = {
     {0, 0, 0, 1},
     {0, 0, 0, 1},
     {0, 0, 0, 1}}
-'''
+```
